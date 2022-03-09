@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html {
   box-sizing: border-box;
@@ -7,7 +7,63 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Handlee", cursive;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23393839' fill-opacity='0.39' fill-rule='evenodd'/%3E%3C/svg%3E");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quote-container {
+  font-size: 2.75rem;
+  max-width: 1000px;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  box-shadow: 0 8px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.8rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.author-text {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: rgba(26, 25, 25, 0.8);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  outline: none;
+  color: rgb(214, 214, 214);
+  background-color: black;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translate(0, 3px);
+  box-shadow: none;
+}
+
+.btn-quote:hover {
+  color: white;
+}
+
+.btn-twitter:hover {
+  color: #1da1f2;
 }
