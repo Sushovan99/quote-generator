@@ -13,22 +13,23 @@
   </head>
   <body>
     <!-- Quote container -->
-    <div class="quote-container">
+    <div class="quote-container" id="quote-container">
       <div class="quote-text">
+        <!-- Left-quote icon -->
         <i class="fa fa-quote-left" aria-hidden="true"></i>
-        <span
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          atque.</span
-        >
+        <!-- Fetched Text -->
+        <span></span>
       </div>
+      <!-- Author text -->
       <div class="author-text">
-        <h3>Author</h3>
+        <h3 id="author">Author</h3>
       </div>
+      <!-- Button container -->
       <div class="button-container">
-        <button class="btn btn-twitter" title="Twitter Post">
+        <button class="btn btn-twitter" id="twitter" title="Tweet This!">
           <i class="fab fa-twitter"></i>
         </button>
-        <button class="btn btn-quote">New Quote</button>
+        <button class="btn btn-quote" id="new-quote">New Quote</button>
       </div>
     </div>
     <!-- Script -->

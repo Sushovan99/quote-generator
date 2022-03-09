@@ -67,3 +67,27 @@ body {
 .btn-twitter:hover {
   color: #1da1f2;
 }
+
+.long-quote {
+  font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .quote-container {
+    margin: 0 1.4rem;
+    font-size: 2rem;
+  }
+  .fa-quote-left {
+    font-size: 2.5rem;
+  }
+
+  .author-text {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+  }
+}
